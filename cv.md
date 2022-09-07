@@ -22,18 +22,21 @@ My goal is to improve my web-programming skills and to learn to develop user-fri
 
 ## Code example:
 ```
-
+function multiply($a, $b){
+  return $a * $b;
+}
 ```
 
-## My Projects:
-
 ## Courses:
+* Udemy - WEB-разработчик 2022
 
 ## Education:
-Zugres General Education School No.9
-Zuyevka Power Engineering College (heating engineer and technician of heating equipment)
-Ukrainian Engineering Pedagogics Academy (Bachelor of Heat Power Engineering)
-Ukrainian Engineering Pedagogics Academy (Master of Heat Power Engineering)
+* Zugres General Education School No.9
+* Zuyevka Power Engineering College (heating engineer and technician of heating equipment)
+* Ukrainian Engineering Pedagogics Academy (Bachelor in Thermal power engineering)
+* Ukrainian Engineering Pedagogics Academy (Master in Thermal power engineering)
 
-## English level:
-**A2**
+## Language knowledge:
+**English - Elementary**
+**Russian - Native speaker**
+**Ukrainian - Native speaker**
