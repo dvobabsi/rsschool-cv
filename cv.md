@@ -37,6 +37,6 @@ function multiply($a, $b){
 * Ukrainian Engineering Pedagogics Academy (Master in Thermal power engineering)
 
 ## Language knowledge:
-**English - Elementary**
-**Russian - Native speaker**
-**Ukrainian - Native speaker**
+* **English - Elementary**
+* **Russian - Native speaker**
+* **Ukrainian - Native speaker**
