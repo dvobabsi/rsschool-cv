@@ -1,0 +1,37 @@
+/*Подключение шрифтв PT Sans */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* 
+@font-face {
+	font-family: 'Имя шрифта';
+	font-display: swap;
+	src: url("../fonts/файл шрифта.eot");
+	src: local("O"), url("../fonts/файл шрифта.woff") format("woff"), 
+			url("../fonts/файл шрифта.ttf") format("truetype"), 
+			url("../fonts/файл шрифта.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+
+@font-face {
+    font-family: JosefinSans;
+    font-display: swap;
+    src: url(../fonts/AnyConv.com__JosefinSans-VariableFont_wght.eot);
+    src: local("O"), url("../fonts/JosefinSans-VariableFont_wght.woff") format("woff"), 
+			url("../fonts/JosefinSans-VariableFont_wght.ttf") format("truetype"), 
+			url("../fonts/JosefinSans-VariableFont_wght.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: JosefinSans;
+    font-display: swap;
+    src: url(../fonts/AnyConv.com__JosefinSans-Italic-VariableFont_wght.eot);
+    src: local("O"), url("../fonts/JosefinSans-Italic-VariableFont_wght.woff") format("woff"), 
+			url("../fonts/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype"), 
+			url("../fonts/JosefinSans-Italic-VariableFont_wght.svg") format("svg");
+    font-weight: normal;
+    font-style: italic;
+}

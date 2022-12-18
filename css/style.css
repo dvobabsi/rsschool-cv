@@ -1,0 +1,142 @@
+/*Обнуление стилей*/
+@import url(nullstyle.css);
+
+/* Подключение шрифтов */
+@import url(fonts.css);
+
+html {
+    scroll-behavior: smooth; 
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #4d2323;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+.profile__my-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 15px solid #b270ca;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+}
+
+.link:hover {
+    color: #5d7260;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: #b270ca;
+}
+
+.section {
+    width: 50%;
+    padding: 30px 20px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.header {
+    background-color: #505050;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section__profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.profile__title {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #829985;
+}
+
+.profile__text {
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #b270ca;
+}
+
+.footer {
+    background-color: #505050;
+    padding: 20px 0px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.github-link {
+    list-style: none;
+    color: #fff;
+}
+.footer__github {
+    width: 26px;
+    height: 26px;
+}
+.footer__cv {
+    color: #fff;
+}
+.footer__logo-rss {
+    text-decoration: none;
+}
+.logo-rss {
+    width: 73px;
+    height: 26px;
+}

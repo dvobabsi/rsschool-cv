@@ -1,1 +1,1 @@
-# rsschool-cv
+https://dvobabsi.github.io/rsschool-cv/
